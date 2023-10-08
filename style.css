@@ -1,0 +1,23 @@
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.grid-item{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    font-size: 24px;
+}
+
+.footer{
+    height: min-content;
+}
