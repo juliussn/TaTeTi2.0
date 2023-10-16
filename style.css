@@ -1,3 +1,5 @@
+
+
 .container {
     background-color: black;
     display: grid;
@@ -6,6 +8,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vh;
 }
 
 .grid-item{
@@ -13,8 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     font-size: 24px;
 }
 
