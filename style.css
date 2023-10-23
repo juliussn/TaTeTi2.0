@@ -1,14 +1,12 @@
-.body {
-    background-color: rgb(41, 39, 39);
-    margin: 0;
-    padding: 0;
+body {
+    background-color: rgb(27, 25, 25);
+    
 }
 
 .container {
-    background-color: rgb(27,25,25);
+    background-color: rgb(27, 25, 25);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;   
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -20,24 +18,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 150px;
-    font-size: 24px;
+    width: 200px;
+    height: 200px;
+    font-size: 54px;
+    border: 8px solid rgb(27, 25, 25);
 }
 
 .jugador{
     background-color: rgb(200, 200, 200);
     display: flex;
-    flex-direction: column; /* Cambia flex-direction a "column" */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid rgb(200, 200, 200);
     border-radius: 2px;
-    z-index: 1;
+    z-index: 2;
     }
     
 
 
 .footer{
     height: min-content;
+}
+
+.ganador{
+    background-color: rgb(212, 212, 11);
+}
+
+dialog{
+    text-align: center;
+    min-width: 50vw;
+    background-color: rgba(rgb(240, 0, 0), rgb(0, 248, 0), blue, 0.73);
+    border-radius: 10px;
+}
+
+dialog h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+dialog button{
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+dialog::backdrop{
+    backdrop-filter: blur(3px);
 }
